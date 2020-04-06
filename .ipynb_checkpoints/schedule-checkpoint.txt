@@ -1,0 +1,15 @@
+Schedule:
+Monday AM: Gather Pre-built datasets from Kaggle, Spotify API familiarization
+Monday PM: Start Data collection
+
+Tuesday AM: Finish Data Collection
+Tuesday PM: Data Cleaning, EDA
+
+Wednesday AM: EDA continued, plotting
+Wednesday PM: Finish EDA and Cleaning
+
+Thurday: Hypothesis Testing, Clean Up plots
+Thursday: Create Slides, README roughdraft
+
+Friday AM: polish presentation and README
+Friday PM: Presentation
