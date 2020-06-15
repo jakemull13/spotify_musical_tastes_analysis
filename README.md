@@ -54,15 +54,15 @@ Analyze the current "Top 50" Tracks of the United States, Canada, Mexico, the Un
 
 # Similarity in Track Sets
 
-<img src="global_U_usa.png">
+<img src="plots/global_U_usa.png">
 
-<img src="global_U_uk.png">
+<img src="plots/global_U_uk.png">
 
-<img src="global_U_mex.png">
+<img src="plots/global_U_mex.png">
 
-<img src="global_U_can.png">
+<img src="plots/global_U_can.png">
 
-<img src="global_U_usa_U_can.png">
+<img src="plots/global_U_usa_U_can.png">
 
 # Similarity in Genres
 Use the scikit.learn vectorization module to take the lists of genres for each playlist and calculate the frequency of each genre. Then, calculate the cosine-similarity between every playlist's genre-vector, and create a similarity matrix. Finally, plot the matrix using a heatmap to visualize which playlists are most similar in their genres. 
@@ -147,7 +147,7 @@ Similarity Matrix:
 
 
 
-<img src="genre_similarity_heatmap.png">
+<img src="plots/genre_similarity_heatmap.png">
 
 The heatmap shows us that the two most similar playlists (whose intersection is the darkest shade of blue) are USA and Canada. However, contrary to my prediction, the playlist most similart to the global playlist is Canadas
 
@@ -155,9 +155,9 @@ The heatmap shows us that the two most similar playlists (whose intersection is 
 
 ### Description of Features & Correlation between Features
 
-<img src="features_table.png">
+<img src="plots/features_table.png">
 
-<img src="all_data_feature_correlation.png">
+<img src="plots/all_data_feature_correlation.png">
 
 ### Calculate Similarity
 Take the mean values for every feature in a playlist. Then, use these vectors to once again calculate the cosine similarity between each playlist.
@@ -242,11 +242,11 @@ Cosine Similarity Matrix
 
 
 
-<img src="feature_similarity_heatmap.png">
+<img src="plots/feature_similarity_heatmap.png">
 
 # Distributions of Track Features
 
-<img src="feature_distribution.png">
+<img src="plots/feature_distribution.png">
 
 ### Null Hypothesis: There is no difference in the means of features in the USA and Global Playlists
 
@@ -260,7 +260,7 @@ two_tailed_test(global_df, usa_df, label1='Global', label2='USA', feature='acous
 
 
 
-![png](output_26_1.png)
+![png](plots/output_26_1.png)
 
 
 
@@ -273,7 +273,7 @@ two_tailed_test(global_df, usa_df, label1='Global', label2='USA', feature='dance
 
 
 
-![png](output_27_1.png)
+![png](plots/output_27_1.png)
 
 
 
@@ -286,7 +286,7 @@ two_tailed_test(global_df, usa_df, label1='Global', label2='USA', feature='energ
 
 
 
-![png](output_28_1.png)
+![png](plots/output_28_1.png)
 
 
 
@@ -299,7 +299,7 @@ two_tailed_test(global_df, usa_df, label1='Global', label2='USA', feature='loudn
 
 
 
-![png](output_29_1.png)
+![png](plots/output_29_1.png)
 
 
 
@@ -312,10 +312,8 @@ two_tailed_test(global_df, usa_df, label1='Global', label2='USA', feature='speec
 
 
 
-![png](output_30_1.png)
+![png](plots/output_30_1.png)
 
-
-# Conclusions
 
 
 
